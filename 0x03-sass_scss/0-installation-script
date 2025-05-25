@@ -1,0 +1,31 @@
+Steps to Install SASS
+Ensure Node.js and npm are installed
+
+Check if Node.js is installed:
+
+bash
+node -v
+Check if npm is installed:
+
+bash
+npm -v
+If not installed, download Node.js (which includes npm) from https://nodejs.org.
+
+Install SASS (version 3.7.4) globally
+Run the following command:
+
+bash
+npm install -g sass@3.7.4
+-g installs it globally (available system-wide).
+
+@3.7.4 ensures version 3.7.4 is installed.
+
+Verify Installation
+Check if SASS was installed correctly:
+
+bash
+sass --version
+Expected output:
+
+1.14.4 compiled with dart2js 2.14.4
+(Note: The version may show 1.14.4 because 3.7.4 refers to the npm package version, not the Dart Sass compiler version.)
