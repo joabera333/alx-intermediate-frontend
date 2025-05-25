@@ -5,7 +5,7 @@ interface Teacher {
   fullTimeEmployee: boolean;
   yearsOfExperience?: number;
   location: string;
-  [key: string]: any; // Allow any additional attributes
+  // Allow any additional attributes
 }
 
 // Example usage
